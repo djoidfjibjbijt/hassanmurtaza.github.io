@@ -1,0 +1,233 @@
+:root{
+    --brown: #34495e;
+    --skin: #1e1ea1;
+    --white: white;
+    --gray: gray;
+    --green: green;
+}
+
+#header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    top: -16px;
+    left: 0px;
+    background-color: var(--brown);
+}
+#about{
+    margin-left: 1120px;
+}
+.title:hover{
+    transition: 500ms;
+    background-color: var(--white);
+    color: var(--brown);
+    height: 50px;
+}
+.title{
+    padding-top: 13px;
+    height: 70px;
+    float: left;
+    list-style-type: none;
+    font-size: 49px;
+    color: var(--white) ;
+    margin: 10px;
+}
+
+.sheading{
+    margin-top: 4%;
+    color: var(--skin);
+    font-size: 50px;
+    margin-left: 0%;
+    background-color: black;
+    color: var(--white)
+}
+.life3{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    margin-top: 1.5%;
+    margin-left: -9%;
+}
+#life{
+    margin-left: 7%;
+}
+.life3:hover{
+    transform: translate(-168px,-2px);
+    transition: 750ms;
+    animation-delay: 0.5s;
+}
+#Last:hover{
+    transform: translate(0px,-2px);
+}
+#life:hover{
+    transform: translate(-140px,-2px)
+}
+
+#aibuy{
+    position: absolute;
+    top: 300px;
+    background-color: var(--green);
+    border: var(--green);
+    color: var(--white);
+    height: 50px;
+    width: 150px;
+}
+.astronmy:hover{
+    transform: translate(-168px,-2px);
+    transition: 750ms;
+    animation-delay: 0.5s;
+}
+
+.astronmy{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    margin-top: 1.5%;
+    margin-left: -9%;
+}
+#space{
+    
+    margin-left: 7%;
+}
+#space:hover{
+    transform: translate(-138px,-2px)
+}
+#Last2:hover{
+    transform: translate(0px,-2px);
+}
+#abuy{
+    position: absolute;
+    top: 800px;
+    background-color: var(--green);
+    border: var(--green);
+    color: var(--white);
+    height: 50px;
+    width: 150px;
+}
+.Business:hover{
+    transform: translate(-168px,-2px);
+    transition: 750ms;
+    animation-delay: 0.5s;
+}
+
+.Business{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    margin-top: 1.5%;
+    margin-left: -9%;
+    
+}
+#first{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    margin-top: 1.5%;
+    margin-left: 7%;
+}
+
+#first:hover{
+    transform: translate(-138px,-2px);
+    transition: 750ms;
+    animation-delay: 0.5s;
+}
+#Last3:hover{
+    transform: translate(0px,-2px);
+}
+#bbuy{
+    position: absolute;
+    top: 1300px;
+    background-color: var(--green);
+    border: var(--green);
+    color: var(--white);
+    height: 50px;
+    width: 150px;
+}
+footer{
+    background-color: var(--brown);
+    padding: 70px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col{
+    width: 25%;
+    padding: 0px 25px;
+}
+.footer_col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-bottom: 30px;
+    position: relative;
+}
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    width: 75px;
+}
+.footer_col ul li a{
+    position: relative;
+    left: -30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+.footer_col ul li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+.footer_col .social_links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 10px;
+    border-radius: 50%;
+    color: var(--white);
+    transition: all 0.5s ease;
+}
+.footer_col .social_links a:hover{
+    color: var(--brown);
+    background-color:white;
+}
+#social{
+    position: relative;
+    top: -225px;
+    left: 920px;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer_col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer_col{
+    width: 100%;
+}
+}
